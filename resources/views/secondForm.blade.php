@@ -68,9 +68,14 @@
 	</div>
 </div>
 
+<div class="row">
+	<button type="submit">Submit Grade</button>
+</div>
+
 
 
 </form>
 </div>
+
 </body>
 </html>
