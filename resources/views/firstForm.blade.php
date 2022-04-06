@@ -7,7 +7,7 @@
 	<title></title>
 </head>
 <body>
-<form method="POST" action="/enter-names">
+<form method="POST" action="/enter-grades">
 <div class="input-group flex-nowrap" name="name1">
   <span class="input-group-text" id="addon-wrapping">@</span>
   <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
