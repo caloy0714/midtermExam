@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('begin',[AverageController::class,'start']);
+Route::post('enter-grades', [AverageController::class, 'enterAttempts'])
+Route::post('compute-power',[AverageController::class, computePower])

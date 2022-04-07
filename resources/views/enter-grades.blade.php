@@ -10,7 +10,7 @@
 <div class="container-sm">
 <form action="/compute-grades" method="POST">
 <div class="row">
-	<label>Name: {{student_1}} </label>	
+	<label>Name: {${student_1}} </label>	
 	<div class="col col-md-4">
 		<label>Midterms</label>
 		<input type="number" name="p1_attempt1" class="form-control">
@@ -21,7 +21,7 @@
 	</div>
 </div>
 <div class="row">
-	<label>Name: {{student_2}} </label>	
+	<label>Name: {{$student_2}} </label>	
 	<div class="col col-md-4">
 		<label>Midterms</label>
 		<input type="number" name="p2_attempt1" class="form-control">
@@ -33,7 +33,7 @@
 </div>
 
 <div class="row">
-	<label>Name: {{student_3}} </label>	
+	<label>Name: {{$student_3}} </label>	
 	<div class="col col-md-4">
 		<label>Midterms</label>
 		<input type="number" name="p3_attempt1" class="form-control">
@@ -45,7 +45,7 @@
 </div>
 
 <div class="row">
-	<label>Name: {{student_4}} </label>	
+	<label>Name: {{$student_4}} </label>	
 	<div class="col col-md-4">
 		<label>Midterms</label>
 		<input type="number" name="p4_attempt1" class="form-control">
@@ -57,7 +57,7 @@
 </div>
 
 <div class="row">
-	<label>Name: {{student_5}} </label>	
+	<label>Name: {{$student_5}} </label>	
 	<div class="col col-md-4">
 		<label>Midterms</label>
 		<input type="number" name="p5_attempt1" class="form-control">
