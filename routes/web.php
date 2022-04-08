@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AverageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('begin',[AverageController::class,'start']);
-Route::post('enter-grades', [AverageController::class, 'enterAttempts'])
-Route::post('compute-power',[AverageController::class, computePower])
+Route::get('begin',[AverageController::class, 'begin']);
+Route::post('enter-grades', [AverageController::class, 'enterAttempts']);
+Route::post('compute-grades',[AverageController::class, 'computePower']);
